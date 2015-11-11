@@ -52,13 +52,22 @@ The first of the four switches are set to ON, and the other 3 switches are set t
 
 3. In the DragonBoard Update Tool click the “Browse” button and locate the Win10 IoT Core Image file you downloaded during the HostPC setup
 
-4. Click the “Program” Button and wait for the image to be downloaded to the board.
+4. Click the “Program” Button. The DragonBoard Update Tool will now create 'rawprogram0.xml'. When the Update Tool is finished it will return a message as described below:
+
+Error code: 0
+Version 2.15
+Creating rawprogram and files
+Status: 0 (null)
+
+5. In the DragonBoard Update Tool click the “Browse” button for the second time and locate 'rawprogram0.xml'.
+
+6. Click the “Program” Button again and wait for the image to be downloaded to the board.
     
 	**Please Note:** The download will overwrite any previous content of the eMMC memory
 
-5. Once the download is complete, disconnect the power supply from the board and change the boot switches back to the OFF position.
+7. Once the download is complete, disconnect the power supply from the board and change the boot switches back to the OFF position.
 
-6. The DragonBoard is now ready to boot into Win10 IoT Core OS.
+8. The DragonBoard is now ready to boot into Win10 IoT Core OS.
 
 
 
